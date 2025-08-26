@@ -5,9 +5,10 @@ public class Agent2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        while (true) {
+        while (scanner.hasNext()) {
             String input = scanner.nextLine();
-            System.out.println("my output");
+            System.out.println("output");
         }
+        scanner.close();
     }
 }
